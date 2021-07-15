@@ -1,0 +1,69 @@
+.button1 {
+    -fx-background-color : #86C232;
+    -fx-background-radius :  30 0 0 30;
+}
+
+.button1:hover {
+-fx-background-color : #61892F ;
+-fx-background-radius :  30 0 0 30;
+}
+
+.button1:pressed {
+-fx-background-color : #61892F ;
+-fx-background-radius :  30 0 0 30;
+}
+
+.button2 {
+    -fx-background-color : #86C232;
+    -fx-background-radius : 10;
+}
+
+.button2:hover {
+-fx-background-color : #61892F;
+-fx-background-radius : 10;
+}
+
+.button2:pressed {
+-fx-background-color : #61892F;
+-fx-background-radius : 10;
+}
+
+.button3 {
+    -fx-background-color : #FF0000;
+    -fx-background-radius :  10;
+}
+
+.button3:hover {
+-fx-background-color : #D60404 ;
+-fx-background-radius :  10;
+}
+
+.button3:pressed {
+-fx-background-color : #D60404 ;
+-fx-background-radius :  10;
+}
+
+.resultField {
+-fx-background-color : grey;
+-fx-background-radius : 10;
+-fx-border-color : white;
+-fx-border-radius : 10;
+-fx-border-width : 3px;
+-fx-text-fill : white;
+}
+
+.inputField {
+-fx-background-color : grey;
+-fx-background-radius : 10;
+-fx-border-color : white;
+-fx-border-radius : 10;
+-fx-text-fill : white;
+}
+
+.inputField2 {
+-fx-background-color : white;
+-fx-background-radius : 10;
+-fx-border-color : #86C232;
+-fx-border-radius : 10;
+-fx-border-width : 2;
+}

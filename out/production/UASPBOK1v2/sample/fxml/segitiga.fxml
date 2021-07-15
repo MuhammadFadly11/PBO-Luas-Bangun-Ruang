@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="400.0" prefWidth="650.0" style="-fx-background-color: #474B4F;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.bangunDatarController">
+   <children>
+      <Label layoutX="117.0" layoutY="81.0" style="-fx-text-fill: #f0f0f0;" stylesheets="@../../assets/style.css" text="Alas ( cm )">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="320.0" layoutY="81.0" style="-fx-text-fill: #f0f0f0;" stylesheets="@../../assets/style.css" text="Tinggi ( cm )">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="alasField" layoutX="202.0" layoutY="79.0" prefHeight="25.0" prefWidth="105.0" styleClass="inputField" stylesheets="@../../assets/style.css" />
+      <Button fx:id="hitungLuasButton" layoutX="113.0" layoutY="175.0" mnemonicParsing="false" onAction="#hitungLuasSegitigaOnAction" prefHeight="25.0" prefWidth="198.0" styleClass="button2" stylesheets="@../../assets/style.css" text="Hitung Luas" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Button>
+      <Button fx:id="hitungKelilingButton" layoutX="331.0" layoutY="175.0" mnemonicParsing="false" onAction="#hitungKelilingSegitigaOnAction" prefHeight="25.0" prefWidth="198.0" styleClass="button2" stylesheets="@../../assets/style.css" text="Hitung Keliling" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Button>
+      <Label layoutX="306.0" layoutY="225.0" style="-fx-text-fill: #f0f0f0;" stylesheets="@../../assets/style.css" text="Hasil">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="resultTextField" layoutX="113.0" layoutY="258.0" prefHeight="64.0" prefWidth="424.0" styleClass="resultField" stylesheets="@../../assets/style.css">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="tinggiField" layoutX="415.0" layoutY="79.0" prefHeight="25.0" prefWidth="113.0" styleClass="inputField" stylesheets="@../../assets/style.css" />
+      <Label layoutX="115.0" layoutY="115.0" style="-fx-text-fill: #f0f0f0;" stylesheets="@../../assets/style.css" text="SisiA ( cm )">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="sisiAField" layoutX="202.0" layoutY="113.0" prefHeight="25.0" prefWidth="34.0" styleClass="inputField" stylesheets="@../../assets/style.css" />
+      <Label layoutX="258.0" layoutY="115.0" style="-fx-text-fill: #f0f0f0;" stylesheets="@../../assets/style.css" text="SisiB ( cm )">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="sisiBField" layoutX="345.0" layoutY="113.0" prefHeight="25.0" prefWidth="34.0" styleClass="inputField" stylesheets="@../../assets/style.css" />
+      <Label layoutX="410.0" layoutY="115.0" style="-fx-text-fill: #f0f0f0;" stylesheets="@../../assets/style.css" text="SisiC ( cm )">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="sisiCField" layoutX="494.0" layoutY="113.0" prefHeight="25.0" prefWidth="34.0" styleClass="inputField" stylesheets="@../../assets/style.css" />
+   </children>
+</Pane>
